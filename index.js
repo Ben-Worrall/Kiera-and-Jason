@@ -6,6 +6,20 @@ var No = document.getElementById('No')
 
 document.getElementById('StartBNT').addEventListener('click', (e)=>{
     document.getElementById('FirstDiv').style.display = "none"
+    document.getElementById('FavSuit').style.display = ""
+    
+})
+function onSuit(){
+    document.getElementById('FavSuit').style.display = "none"
+    document.getElementById('FavDress').style.display = ""
+}
+function onDress(){
+    document.getElementById('FavDress').style.display = "none"
+    document.getElementById('FavCake').style.display = ""
+}
+function onCake(){
+
+    document.getElementById('FavCake').style.display = "none"
     document.getElementById('SecondDiv').style.display = ""
     setTimeout(
         function() {
@@ -25,12 +39,35 @@ document.getElementById('StartBNT').addEventListener('click', (e)=>{
             alert("Nah ainnoway you dont want her?")
           }
     }, 17500);
-})
+
+}
+
+/* 
+
+document.getElementById('FirstDiv').style.display = "none"
+    document.getElementById('SecondDiv').style.display = ""
+    setTimeout(
+        function() {
+          if(document.getElementById("drawing_canvas").style.display === "none"){
+            alert("Nahhhhhhhhhh")
+          }
+    }, 7500);
+    setTimeout(
+        function() {
+          if(document.getElementById("drawing_canvas").style.display === "none"){
+            alert("Ainnoway you actually doing this right now")
+          }
+    }, 12500);
+    setTimeout(
+        function() {
+          if(document.getElementById("drawing_canvas").style.display === "none"){
+            alert("Nah ainnoway you dont want her?")
+          }
+    }, 17500);
 
 
 
-
-
+*/
 
 
 

@@ -65,11 +65,97 @@
     }
 }
 
+@keyframes slide-Down {
+    from {
+       opacity: 0.1;
+       line-height: 100vh;
+    }
+
+    to {
+        opacity: 1;
+        line-height: 5vh;
+    }
+}
 
 
 
+#FavSuit{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.title{
+    position: absolute;
+    top: 0;
+    color: white;
+    margin-top: 5%;
+    font-size: 200%;
+    animation: slide-Down 2s;
+}
+.Suit{
+    width: 20%;
+    height: 40%;
+    border: solid 0.5vh rgba(255, 255, 255, 0.1);
+    animation: slide-up 2s;
+}
+.Suit:hover{
+    cursor: pointer;
+    border: solid 0.5vh rgba(238, 255, 0, 0.5);
+}
 
+#FavDress{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    position: absolute;
+    top: 0;
+    color: white;
+    margin-top: 5%;
+    font-size: 200%;
+}
+.Dress{
+    width: 20%;
+    height: 45%;
+    border: solid 0.5vh rgba(255, 255, 255, 0.1);
+    animation: slide-up 2s;
+}
+.Dress:hover{
+    cursor: pointer;
+    border: solid 0.5vh rgba(247, 0, 255, 0.5);
+}
 
+#FavCake{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.title{
+    position: absolute;
+    top: 0;
+    color: white;
+    margin-top: 5%;
+    font-size: 200%;
+}
+.Cake{
+    width: 20%;
+    height: 45%;
+    border: solid 0.5vh rgba(255, 255, 255, 0.1);
+    animation: slide-up 2s;
+}
+.Cake:hover{
+    cursor: pointer;
+    border: solid 0.5vh rgba(255, 255, 255, 0.5);
+}
 
 
 
