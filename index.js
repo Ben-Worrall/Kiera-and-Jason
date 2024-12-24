@@ -12,19 +12,19 @@ document.getElementById('StartBNT').addEventListener('click', (e)=>{
           if(document.getElementById("drawing_canvas").style.display === "none"){
             alert("Nahhhhhhhhhh")
           }
-    }, 5000);
+    }, 7500);
     setTimeout(
         function() {
           if(document.getElementById("drawing_canvas").style.display === "none"){
             alert("Ainnoway you actually doing this right now")
           }
-    }, 10000);
+    }, 12500);
     setTimeout(
         function() {
           if(document.getElementById("drawing_canvas").style.display === "none"){
             alert("Nah ainnoway you dont want her?")
           }
-    }, 15000);
+    }, 17500);
 })
 
 

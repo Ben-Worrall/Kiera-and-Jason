@@ -96,6 +96,10 @@
     outline: 1px solid black;
     display: flex;
     align-items: center;
+    background: url('./Background.png');
+    background-size: contain; /* Change this line */
+    background-repeat: no-repeat; /* Add this line to prevent tiling */
+    background-position: center;
 }
 .button{
     color: rgb(0, 0, 0);
