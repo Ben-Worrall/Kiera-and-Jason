@@ -2,7 +2,8 @@ var Yes = document.getElementById('Yes')
 var No = document.getElementById('No')
 
 
-
+var img=new Image();
+    img.src='./Background.png';
 
 document.getElementById('StartBNT').addEventListener('click', (e)=>{
     document.getElementById('FirstDiv').style.display = "none"
